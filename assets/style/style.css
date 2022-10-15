@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(60deg, #fe134e 0%, #a43777 42%, #9bdcb6 79%, #0aebed 100%);
+}
+
+.topo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.logo-topo {
+    height: 75px;
+}
+
+#topo-menu {
+    display: flex;
+    gap: 20px;
+}

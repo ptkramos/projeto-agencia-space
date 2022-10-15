@@ -18,6 +18,7 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 25px;
+    border-bottom: 0.4px solid azure;
 }
 
 .logo-topo {
@@ -27,4 +28,104 @@ body {
 #topo-menu {
     display: flex;
     gap: 20px;
+}
+
+.topo-menu-item {
+    font-family: 'Roboto', sans-serif;
+    color: azure;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.conteudo {
+    margin-bottom: 40px;
+}
+
+.bloco1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.conteudo-principal-titulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    background-image: linear-gradient(0deg, rgba(231,251,255,1) 80%, rgba(240,255,255,1) 100%);
+    color:black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.conteudo-principal-subtitulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: azure;
+}
+
+.conteudo-principal-botao {
+    background-color: #0aebed;
+    width: 200px;
+    height: 80px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: azure;
+}
+
+.conteudo-principal-botao:hover {
+    background-color: #9bdcb6;
+    font-style: italic;
+}
+
+.conteudo-principal-img {
+    height: 430px;
+}
+
+.bloco2 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.bloco2-titulo {
+    padding-top: 40px;
+    border-top: 0.4px solid azure;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: azure;
+    margin-bottom: 20px;
+}
+
+.bloco2-paragrafo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: azure;
+}
+
+.rodape {
+    padding: 30px;
+    border-top: 0.4px solid azure;
+}
+
+.logo-rodape {
+    height: 40px;
+    display: block;
+    margin: 0 auto;
 }

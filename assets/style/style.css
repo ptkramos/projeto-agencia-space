@@ -72,3 +72,60 @@ body {
     color: azure;
 }
 
+.conteudo-principal-botao {
+    background-color: #0aebed;
+    width: 200px;
+    height: 80px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: azure;
+}
+
+.conteudo-principal-botao:hover {
+    background-color: #9bdcb6;
+    font-style: italic;
+}
+
+.conteudo-principal-img {
+    height: 430px;
+}
+
+.bloco2 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.bloco2-titulo {
+    padding-top: 40px;
+    border-top: 0.4px solid azure;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: azure;
+    margin-bottom: 20px;
+}
+
+.bloco2-paragrafo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: azure;
+}
+
+.rodape {
+    padding: 30px;
+    border-top: 0.4px solid azure;
+}
+
+.logo-rodape {
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
